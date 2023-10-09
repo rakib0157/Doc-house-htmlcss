@@ -1,0 +1,189 @@
+@media screen and (min-width: 992px) and (max-width:1199px) {
+
+    /********** common css style code start  ***********/
+
+    .common-three-section-heading {
+        font-size: var(--font-size-thirty);
+    }
+
+    .banner-btn,
+    .two-btn {
+        font-size: var(--font-size-sixtin);
+
+    }
+
+    .banner-btn {
+        padding: 14px;
+    }
+
+    .two-btn {
+        padding: 14px;
+        background: transparent;
+        border: 1px solid var(--secondary-color);
+        color: var(--secondary-color);
+    }
+
+    #service-section,
+    #info-card-section,
+    #patient-review-section,
+    #doctor-section,
+    #contact-section,
+    #footer {
+        width: 100%;
+        padding: 0px 70px;
+        margin-top: 70px;
+    }
+
+    .common-card-holder-name {
+        font-size: var(--font-size-twenty);
+        color: #0a0808;
+        line-height: 26px;
+        font-weight: 700;
+    }
+
+    /********** common css style code end  ***********/
+
+    /********** header  start (edited) ***********/
+
+    #header {
+        height: 700px;
+        padding: 40px 70px;
+    }
+    .bar-icon{
+        display: none;
+    }
+
+    /* banner start  */
+
+    .banner {
+        align-items: center;
+    }
+
+    .banner-heading {
+        font-size: 40px;
+    }
+
+    .banner-para {
+        font-size: var(--font-size-sixtin);
+    }
+
+    /* banner end  */
+
+    /********** header  end (edited) ***********/
+
+    /********** Our service section start  ***********/
+    #service-section {
+        height: 970px;
+    }
+
+    .service-para {
+        font-size: var(--font-size-sixtin);
+        margin: 20px 0px;
+    }
+
+    .tab-container {
+        height: 60px;
+    }
+
+    .tab-btn {
+        font-size: var(--font-size-sixtin);
+    }
+
+    .tab-heading {
+        font-size: var(--font-size-twenty);
+    }
+
+    /********** Our service section end  ***********/
+
+    /********** Info section start (edited)  ***********/
+    #info-card-section {
+        height: 170px;
+    }
+
+    .info-card {
+        padding: 16px;
+    }
+
+    .info-card-header {
+        font-size: 22px;
+    }
+
+    .info-card-para {
+        font-size: 18px;
+    }
+
+    /********** Info section end (edited) ***********/
+
+    /********** patient review section start(edited)  ***********/
+
+    .patient-review-heading-container {
+        text-align: center;
+    }
+
+    .review-card-para {
+        font-size: 16px;
+    }
+
+    .cbtn {
+        left: 50px;
+    }
+
+    .cbtn2 {
+        right: 50px;
+    }
+
+    /********** patient review section end (edited)  ***********/
+
+    /********** expert doctor section start  ***********/
+    .doctors-card-container {
+        display: flex;
+        gap: 24px;
+    }
+
+    .doctor-card {
+        padding: 10px;
+    }
+
+    .doctor-card-heading-container {
+        padding: 10px 0px;
+    }
+
+    .card-details-para {
+        gap: 10px;
+    }
+
+    .doctor-card-btn {
+        padding: 10px 50px;
+        font-size: var(--font-size-eighten);
+        margin-top: 20px;
+    }
+
+    /********** expert doctor section end  ***********/
+    /********** contact us section start (edited)  ***********/
+    #contact-section {
+        height: 500px;
+    }
+
+    .contact-container {
+        padding: 60px;
+        gap: 20px;
+    }
+
+    .contact-details {
+        gap: 20px;
+    }
+
+    .form-container {
+        gap: 20px;
+    }
+
+    .book-btn {
+        padding: 13px;
+    }
+
+    /********** contact us section end (edited) ***********/
+    .footer-container {
+        padding: 40px 0px;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,176 @@
+@media screen and (min-width:576px) and (max-width:767px) {
+
+    /********** common css style code start  ***********/
+    .banner-btn,
+    .two-btn {
+        font-size: var(--font-size-twenty);
+        border-radius: 10px;
+
+    }
+
+    .banner-btn {
+        padding: 18px;
+        background-color: var(--secondary-color);
+        font-weight: 700;
+        border: 0;
+        color: var(--color-white);
+        margin-top: 24px;
+    }
+
+    .two-btn {
+        padding: 14px;
+        background: transparent;
+        border: 1px solid var(--secondary-color);
+        color: var(--secondary-color);
+    }
+
+    #service-section,
+    #info-card-section,
+    #patient-review-section,
+    #doctor-section,
+    #contact-section,
+    #footer {
+        width: 100%;
+        padding: 0px 20px;
+        margin-top: 80px;
+    }
+
+    .common-card-holder-name {
+        font-size: var(--font-size-twenty);
+        color: #0a0808;
+        line-height: 26px;
+        font-weight: 700;
+    }
+
+    /********** common css style code end  ***********/
+
+    /********** header  start (edited)  ***********/
+    #header {
+        padding: 30px 20px;
+        height: auto;
+        background-size: 130px 150px;
+        background-color: var(--primary-color);
+        background-image: url('./images/bannerbg1.png'), url('./images/bannerbg2.png'), url('');
+        background-position: left top, right top 100px;
+    }
+    .bar-icon{
+        display: block;
+    }
+    .header-nav-container {
+        display: none;
+    }
+
+    /* banner start  */
+    .banner {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left-banner {
+        width: 100%;
+    }
+
+    .banner-heading {
+        font-size: 50px;
+    }
+
+
+    .right-banner {
+        width: 100%;
+    }
+
+    /* banner end  */
+
+    /********** header  end (edited)  ***********/
+
+    /********** Our service section start (edited)  ***********/
+    #service-section {
+        height: auto;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .left-service {
+        width: 100%;
+    }
+
+    .right-service-container {
+        width: 100%;
+    }
+
+    /********** Our service section end (edited) ***********/
+
+    /********** Info section start  ***********/
+    #info-card-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    /********** Info section end  ***********/
+    /********** patient review section start (edited)  ***********/
+
+    .tm-none {
+        display: none;
+    }
+
+    .cbtn {
+        top: 65%;
+        left: 8px;
+    }
+
+    .cbtn2 {
+        top: 65%;
+        right: 8px;
+    }
+
+    /********** patient review section end (edited) ***********/
+
+    /********** expert doctor section start (edited)  ***********/
+
+    .doctors-card-container {
+        flex-direction: column;
+    }
+
+    /********** expert doctor section end (edited) ***********/
+
+    /********** contact us section start (edited) ***********/
+    #contact-section {
+        height: auto;
+    }
+
+    .contact-container {
+        padding: 20px;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .left-contact {
+        width: 100%;
+    }
+
+    .right-contact {
+        width: 100%;
+        height: 100%;
+    }
+
+    .form-container {
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 20px;
+    }
+
+    /********** contact us section end (edited) ***********/
+    #footer {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .footer-container {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+}

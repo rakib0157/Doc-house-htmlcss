@@ -1,0 +1,116 @@
+@media screen and (min-width:1200px) and (max-width:1400px){
+
+/********** common css style code start  ***********/
+
+.banner-btn{
+    padding: 14px 24px;
+    font-size: 16px;
+}
+
+.two-btn{
+    padding: 14px 24px;
+    font-size: 16px;
+}
+/* edited  */
+#service-section, #info-card-section, #patient-review-section, #doctor-section, #contact-section , #footer{
+    padding: 0px 100px;
+    margin-top: 120px;
+}
+/* edited  */
+
+.common-card-holder-name{
+    font-size: var(--font-size-twenty);
+    color: #0a0808;
+    line-height: 26px;
+    font-weight: 700;
+}
+/********** common css style code end  ***********/
+
+/********** header  start (edited) ***********/
+#header{
+    height: 750px;
+    padding:40px 100px;
+}
+.bar-icon{
+    display: none;
+}
+/* banner start  */
+.banner{
+    margin-top: 1px;
+    align-items: center;
+}
+.banner-heading{
+    font-size: 50px;
+    color: var(--color-white);
+}
+/* banner end  */
+
+/********** header  end (edited) ***********/
+
+/********** Our service section start (edited)  ***********/
+
+.service-para{
+   font-size: var(--font-size-sixtin);
+   line-height: 26px;
+   margin: 24px 0px;
+}
+.tab-container{
+    height: 60px;
+}
+
+.teeth-img-container{
+    margin: 30px 0px;
+}
+
+.tab-heading{
+    font-size: var(--font-size-twenty);
+}
+
+/********** Our service section end (edited) ***********/
+
+/********** Info section start (edited)  ***********/
+
+#info-card-section{
+    height: 190px;
+}
+
+.info-card-header{
+    font-size: 24px;
+}
+.info-card-para{
+    font-size: 16px;
+}
+
+/********** Info section end (edited)  ***********/
+
+/********** patient review section start (edited)  ***********/
+
+.cbtn{
+    left: 75px;
+}
+.cbtn2{
+    right: 75px;
+}
+/********** patient review section end (edited)  ***********/
+
+/********** expert doctor section start  ***********/
+
+/* No change in 1200 to 1400 px  */
+
+/********** expert doctor section end  ***********/
+
+/********** contact us section start (edited)  ***********/
+
+#contact-section{
+    height: 500px;
+}
+.contact-container{
+    padding: 70px;
+    gap: 20px;
+}
+
+/********** contact us section end (edited) ***********/
+
+/* footer no change in 1200 to 1400px  */
+
+}
